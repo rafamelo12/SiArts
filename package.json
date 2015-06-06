@@ -1,0 +1,27 @@
+{
+  "name": "SiArts",
+  "version": "1.0.0",
+  "description": "Web APP to generate playlists based on similar artists given by the user",
+  "main": "app.js",
+  "scripts": {
+    "test": "node app.js"
+  },
+  "keywords": [
+    "spotify",
+    "similar",
+    "artists",
+    "playlist",
+    "generator"
+  ],
+  "author": "Rafael Oliveira (rafamelo12)",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.12.4",
+    "ejs": "^2.3.1",
+    "express": "^4.12.4",
+    "method-override": "^2.3.3",
+    "morgan": "^1.5.3",
+    "path": "^0.11.14",
+    "spotify-web-api-node": "^2.0.2"
+  }
+}
